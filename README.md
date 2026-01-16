@@ -1,4 +1,3 @@
-# track-my-phone
 # Track My Phone – Lost Phone Helper Website
 
 This website helps users recover lost phones using legal and official methods.
