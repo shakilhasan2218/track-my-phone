@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Find My Phone – Lost Phone Helper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <h1>📱 Find My Phone</h1>
+    <p>Legal & Safe Lost Phone Recovery Helper</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🔍 Find Phone Using Google</h2>
+      <p>If your Android phone is lost, use Google's official service.</p>
+      <a class="btn" href="https://www.google.com/android/find" target="_blank">
+        Go to Google Find My Device
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>📝 Report Lost Phone (IMEI Record)</h2>
+      <form id="lostForm">
+        <input type="text" id="imei" placeholder="IMEI Number (15 digits)" required>
+        <input type="text" id="brand" placeholder="Phone Brand" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <button type="submit">Save Record</button>
+      </form>
+      <p id="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>📌 What To Do Next?</h2>
+      <ul>
+        <li>✔️ File a GD at nearest police station</li>
+        <li>✔️ Contact your SIM operator</li>
+        <li>✔️ Block SIM immediately</li>
+        <li>✔️ Keep IMEI safe</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>⚠️ We do NOT track phones. We only provide legal guidance.</p>
+    <p>© 2026 Find My Phone</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
